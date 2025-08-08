@@ -1,0 +1,47 @@
+# Ignore vendor directory to avoid unnecessary files during build
+/vendor
+
+# Ignore node_modules for the same reason
+/node_modules
+
+# Ignore .env file for security reasons
+/.env
+
+# Ignore .git directory to avoid version control files
+/.git
+
+# Ignore .github directory for GitHub-related files
+/.github
+
+# Ignore .dockerignore itself
+/.dockerignore
+
+# Ignore logs folder
+/storage/logs
+
+# Ignore cache folder for Laravel
+/storage/framework/cache
+
+# Ignore sessions folder for Laravel
+/storage/framework/sessions
+
+# Ignore views folder for Laravel
+/storage/framework/views
+
+# Ignore the public storage directory to avoid issues with symlink
+/public/storage
+
+# Ignore test/ directory for tests that are not needed in production
+/tests
+
+# Ignore any temporary files created by the system
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configuration files
+.idea
+.vscode
+
+# Ignore other files/folders that are not necessary for Docker
+/.phpunit.result.cache
+/.composer
